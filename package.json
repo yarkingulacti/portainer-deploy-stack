@@ -1,11 +1,9 @@
 {
   "name": "portainer-deploy-stack",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Deploy Docker Swarm stack using Portainer API.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yarkingulacti/portainer-deploy-stack.git"
