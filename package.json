@@ -1,0 +1,30 @@
+{
+  "name": "portainer-deploy-stack",
+  "version": "0.0.1",
+  "description": "Deploy Docker Swarm stack using Portainer API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkingulacti/portainer-deploy-stack.git"
+  },
+  "keywords": [
+    "portainer",
+    "docker",
+    "docker",
+    "swarm",
+    "ci/cd"
+  ],
+  "author": "Yarkın Gülaçtı <yarkingulacti@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarkingulacti/portainer-deploy-stack/issues"
+  },
+  "homepage": "https://github.com/yarkingulacti/portainer-deploy-stack#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}

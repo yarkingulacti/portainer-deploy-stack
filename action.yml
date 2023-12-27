@@ -1,0 +1,17 @@
+name: "Hello World"
+description: "Greet someone and record the time"
+inputs:
+  who-to-greet: # id of input
+    description: "Who to greet"
+    required: true
+    default: "World"
+outputs:
+  time: # id of output
+    description: "The time we greeted you"
+runs:
+  using: "node20"
+  main: "index.js"
+git add action.yml index.js node_modules/* package.json package-lock.json README.md
+git commit -m "My first action is ready"
+git tag -a -m "My first action release" v1.1
+git push --follow-tags
